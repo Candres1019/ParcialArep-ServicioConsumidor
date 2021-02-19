@@ -52,6 +52,19 @@ Adicionalmente se recomienda tener descargado los siguientes programas:
     > java -cp target/classes;target/dependency/* edu.escuelaing.arep.ParcialPrimerTercio.app.SparkWebConsumerServiceApp
     > ```
     
+    ** Si queremos ejecutar el cliente, utilizamos el siguiente comando en la ventana de comandos:
+    
+    > * Distribuciones Linux y MacOs:
+    > ```
+    > java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep.ParcialPrimerTercio.cliente.Main
+    > ```
+    > * Distribuciones Windows:
+    > ```
+    > java -cp target/classes;target/dependency/* edu.escuelaing.arep.ParcialPrimerTercio.cliente.Main
+    > ```
+    > 
+    
+  
 4. Para ver el aplicativo web de manera local ingresaremos por la siguiente URI
 
     > Nota: en la parte de funcion solo se acepta "sin", "cos" y "tan"
