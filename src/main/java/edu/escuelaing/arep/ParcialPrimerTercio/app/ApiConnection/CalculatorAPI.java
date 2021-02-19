@@ -13,7 +13,7 @@ import java.net.URL;
  */
 public class CalculatorAPI implements CalculatorConsumer {
 
-    private static final String URI = "https://andrescalderonservidorcalc.herokuapp.com/fachada?";
+    private static final String URI = "https://andrescalderonservidorcalc.herokuapp.com/calculador?";
     private static final String valorP = "valor=";
     private static final String funcionP = "funcion=";
 
