@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.escuelaing.arep.ParcialPrimerTercio.app"},{"l":"edu.escuelaing.arep.ParcialPrimerTercio.app.ApiConnection"}];updateSearchResults();

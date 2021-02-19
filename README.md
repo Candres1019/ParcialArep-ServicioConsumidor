@@ -14,22 +14,15 @@ devuelve archivos estáticos para ser visualizados por el usuario, estos archivo
 Para correr este proyecto necesita los siguientes programas instalados, se adjuntan los
 links de como descargarlos:
 
-> * [Como Instalar Java 11](https://www.oracle.com/co/java/technologies/javase-jdk11-downloads.html)
+> * [Como Instalar Java 8](https://www.oracle.com/co/java/technologies/javase/javase-jdk8-downloads.html)
 > * [Como Instalar Apache Maven](http://maven.apache.org/download.html#Installation)
 
 Adicionalmente se recomienda tener descargado los siguientes programas:
 
 > * [Como Instalar Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-> * [Como Instalar HerokuCli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 
 ### Despliegue en Heroku
-[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://afternoon-lake-64620.herokuapp.com/Apps/htmlShow)
-
-### Calidad del código
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e0c309d228444068b746127db6a10c62)](https://www.codacy.com/gh/Candres1019/TallerClientesServicios/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Candres1019/TallerClientesServicios&amp;utm_campaign=Badge_Grade)
-
-### Integración Continua
-[![CircleCI](https://circleci.com/gh/Candres1019/TallerClientesServicios.svg?style=svg)](https://app.circleci.com/pipelines/github/Candres1019/TallerClientesServicios)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://andrescalderonservidorconsumid.herokuapp.com/consumidor?valor=5&funcion=tan)
 
 ### Instalación
 
@@ -38,10 +31,10 @@ Adicionalmente se recomienda tener descargado los siguientes programas:
     * Para **Clonar** el proyecto utilice el siguiente comando en la ventana de comandos:
   
    ```
-   git clone https://github.com/Candres1019/TallerClientesyServicios---AREP.git
+   git clone https://github.com/Candres1019/ParcialArep-ServicioConsumidor.git
    ```
    
-    * Para **Descargar** el proyecto de click [aquí](https://github.com/Candres1019/TallerClientesServicios-AREP/archive/master.zip),
+    * Para **Descargar** el proyecto de click [aquí](https://github.com/Candres1019/ParcialArep-ServicioConsumidor/archive/master.zip),
       la descarga comenzara de manera automática.
       
 2. En una ventana de comandos ejecute el siguiente comando, dentro de la carpeta principal del proyecto:
@@ -54,18 +47,17 @@ Adicionalmente se recomienda tener descargado los siguientes programas:
    
     > * Distribuciones Linux y MacOs:
     > ```
-    > java $JAVA_OPTS -cp target/classes:target/dependency/* co.edu.escuelaing.demoruntime.DemoRunTime
+    > java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep.ParcialPrimerTercio.app.SparkWebConsumerServiceApp
     > ```
     > * Distribuciones Windows:
     > ```
-    > java -cp target/classes;target/dependency/* co.edu.escuelaing.demoruntime.DemoRunTime
+    > java -cp target/classes;target/dependency/* edu.escuelaing.arep.ParcialPrimerTercio.app.SparkWebConsumerServiceApp
     > ```
     
-4. Para ver el aplicativo web de manera local ingresamos al siguiente enlace, dentro de este enlace encontrará los botones 
-   para realizar las acciones específicas (ver imagen, ver js, ver css, ver datos, insertar datos):
+4. Para ver el aplicativo web de manera local ingresaremos por la siguiente URI
    
     > ```
-    > http://localhost:3478/Apps/htmlShow
+    > http://localhost:4567/consumidor?valor={valor}&funcion={funcion}
     > ```
 
 5. Por defecto se creó la documentación JavaDoc y fue dejada en el directorio /Javadoc, si desea generar uno nuevo

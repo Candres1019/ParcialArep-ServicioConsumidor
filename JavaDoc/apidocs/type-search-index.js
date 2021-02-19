@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"edu.escuelaing.arep.ParcialPrimerTercio.app.ApiConnection","l":"CalculatorAPI"},{"p":"edu.escuelaing.arep.ParcialPrimerTercio.app.ApiConnection","l":"CalculatorConsumer"},{"p":"edu.escuelaing.arep.ParcialPrimerTercio.app","l":"SparkWebConsumerServiceApp"}];updateSearchResults();
