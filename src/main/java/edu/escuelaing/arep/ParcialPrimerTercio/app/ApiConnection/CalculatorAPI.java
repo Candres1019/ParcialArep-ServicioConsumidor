@@ -35,7 +35,7 @@ public class CalculatorAPI implements CalculatorConsumer {
             connection.setUseCaches(false);
             connection.setDoOutput(true);
 
-            connection.getOutputStream();
+            /*connection.getOutputStream();*/
 
             InputStream is = connection.getInputStream();
             BufferedReader rd = new BufferedReader(new InputStreamReader(is));
