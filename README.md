@@ -1,9 +1,7 @@
 # Parcial Primer Tercio - Servidor Consumidor de calculo.
 
-Aplicativo Web diseñado en Java con el objetivo de crear un servidor HTTP, y un framework que reemplace
-al framework Spark, este servidor soporta peticiones get por medio de funciones lambda, para esta aplicación el servidor 
-devuelve archivos estáticos para ser visualizados por el usuario, estos archivos son almacenados internamente en el directorio 
-/src/main/resources
+Aplicativo Web diseñado en Java que hace uso de Spark, para realizar consumo de un servidor de calculos de
+coseno, seno y tangente.
 
 ## Información Del Proyecto
 
@@ -55,6 +53,8 @@ Adicionalmente se recomienda tener descargado los siguientes programas:
     > ```
     
 4. Para ver el aplicativo web de manera local ingresaremos por la siguiente URI
+
+    > Nota: en la parte de funcion solo se acepta "sin", "cos" y "tan"
    
     > ```
     > http://localhost:4567/consumidor?valor={valor}&funcion={funcion}
